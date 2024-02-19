@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+}
+/*Las clases se pueden compartir dependiendo las propiedades las basicas pueden ser color, font-size, font-family entre otras.
+Se le puede asignar una clase a una etiqueta y aplicarle algun esilo y posteriormente esa misma etiqueta agregar otro estilo pero esta puede estar sola*/
+.redireccion, .pagina_principal {
+    color: brown;
+    font-size: 30px;
+    text-decoration: none;
+}
+.redireccion:hover {
+    text-decoration: underline 5px orange;
+}
+
+.redireccion {
+    font-family: 'Courier New', Courier, monospace;
+}
+.pagina_principal {
+    font-family: Arial, Helvetica, sans-serif;
+}
